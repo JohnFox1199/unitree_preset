@@ -1,0 +1,44 @@
+# Virtual environments
+venv/
+.env/
+unitree_venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Build files
+build/
+dist/
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.tmp
+
+# Large data files
+*.h5
+*.pkl
+*.joblib
+*.bin
+
+# MuJoCo
+.mujoco/
+
+# Unitree SDK build
+unitree_sdk2/build/
+unitree_sdk2/install/
